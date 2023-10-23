@@ -700,11 +700,10 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     thumbnailSecondaryDescription: Attribute.String;
     tag: Attribute.Enumeration<
       [
-        'Engineering leadership',
-        'Remote HR',
-        'Talent markets',
-        'Hiring + Recruiting',
-        'Remote how-to\u2019s'
+        'Going Global',
+        'Management & Distributed Teams',
+        'Anti-Outsourcing',
+        'Product & Engineering Leadership'
       ]
     > &
       Attribute.Required;

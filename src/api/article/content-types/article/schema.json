@@ -53,11 +53,10 @@
     "tag": {
       "type": "enumeration",
       "enum": [
-        "Engineering leadership",
-        "Remote HR",
-        "Talent markets",
-        "Hiring + Recruiting",
-        "Remote how-to’s"
+        "Going Global",
+        "Management & Distributed Teams",
+        "Anti-Outsourcing",
+        "Product & Engineering Leadership"
       ],
       "required": true
     },
