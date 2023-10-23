@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blog_key_takeaway_items",
+  "info": {
+    "displayName": "keyTakeawayItem",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "keyTakeawayItem": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

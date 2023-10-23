@@ -26,6 +26,45 @@
     "markdown": {
       "type": "richtext",
       "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "hideContentItems": {
+      "type": "boolean",
+      "default": false
+    },
+    "thumbnailDescription": {
+      "type": "string"
+    },
+    "thumbnailSecondaryDescription": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "enumeration",
+      "enum": [
+        "Engineering leadership",
+        "Remote HR",
+        "Talent markets",
+        "Hiring + Recruiting",
+        "Remote how-to’s"
+      ],
+      "required": true
+    },
+    "keyTakeaways": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.key-takeaway-item"
     }
   }
 }
