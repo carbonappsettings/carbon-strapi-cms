@@ -54,9 +54,10 @@
       "type": "enumeration",
       "enum": [
         "Going Global",
+        "Product & Engineering Leadership",
         "Management & Distributed Teams",
-        "Anti-Outsourcing",
-        "Product & Engineering Leadership"
+        "HR & Compliance",
+        "Anti-Outsourcing"
       ],
       "required": true
     },

@@ -701,9 +701,10 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     tag: Attribute.Enumeration<
       [
         'Going Global',
+        'Product & Engineering Leadership',
         'Management & Distributed Teams',
-        'Anti-Outsourcing',
-        'Product & Engineering Leadership'
+        'HR & Compliance',
+        'Anti-Outsourcing'
       ]
     > &
       Attribute.Required;
@@ -738,8 +739,25 @@ export interface ApiBlogPageBlogPage extends Schema.SingleType {
     draftAndPublish: true;
   };
   attributes: {
-    featuredArticleSlug: Attribute.String;
+    allTagsFeatArticleSlug1: Attribute.String;
     articleFooter: Attribute.RichText & Attribute.Required;
+    allTagsFeatArticleSlug2: Attribute.String;
+    allTagsFeatArticleSlug3: Attribute.String;
+    goingGlobalFeatArticleSlug1: Attribute.String;
+    goingGlobalFeatArticleSlug2: Attribute.String;
+    goingGlobalFeatArticleSlug3: Attribute.String;
+    productEngineeringLeadershipFeatArticleSlug1: Attribute.String;
+    productEngineeringLeadershipFeatArticleSlug2: Attribute.String;
+    productEngineeringLeadershipFeatArticleSlug3: Attribute.String;
+    hrComplianceFeatArticleSlug1: Attribute.String;
+    hrComplianceFeatArticleSlug2: Attribute.String;
+    hrComplianceFeatArticleSlug3: Attribute.String;
+    managingDistributedTeamsFeatArticleSlug1: Attribute.String;
+    managingDistributedTeamsFeatArticleSlug2: Attribute.String;
+    managingDistributedTeamsFeatArticleSlug3: Attribute.String;
+    antiOutsourcingFeatArticleSlug1: Attribute.String;
+    antiOutsourcingFeatArticleSlug2: Attribute.String;
+    antiOutsourcingFeatArticleSlug3: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

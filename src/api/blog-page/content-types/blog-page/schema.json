@@ -12,13 +12,64 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "featuredArticleSlug": {
+    "allTagsFeatArticleSlug1": {
       "type": "string",
       "required": false
     },
     "articleFooter": {
       "type": "richtext",
       "required": true
+    },
+    "allTagsFeatArticleSlug2": {
+      "type": "string"
+    },
+    "allTagsFeatArticleSlug3": {
+      "type": "string"
+    },
+    "goingGlobalFeatArticleSlug1": {
+      "type": "string"
+    },
+    "goingGlobalFeatArticleSlug2": {
+      "type": "string"
+    },
+    "goingGlobalFeatArticleSlug3": {
+      "type": "string"
+    },
+    "productEngineeringLeadershipFeatArticleSlug1": {
+      "type": "string"
+    },
+    "productEngineeringLeadershipFeatArticleSlug2": {
+      "type": "string"
+    },
+    "productEngineeringLeadershipFeatArticleSlug3": {
+      "type": "string"
+    },
+    "hrComplianceFeatArticleSlug1": {
+      "type": "string"
+    },
+    "hrComplianceFeatArticleSlug2": {
+      "type": "string"
+    },
+    "hrComplianceFeatArticleSlug3": {
+      "type": "string"
+    },
+    "managingDistributedTeamsFeatArticleSlug1": {
+      "type": "string"
+    },
+    "managingDistributedTeamsFeatArticleSlug2": {
+      "type": "string"
+    },
+    "managingDistributedTeamsFeatArticleSlug3": {
+      "type": "string"
+    },
+    "antiOutsourcingFeatArticleSlug1": {
+      "type": "string"
+    },
+    "antiOutsourcingFeatArticleSlug2": {
+      "type": "string"
+    },
+    "antiOutsourcingFeatArticleSlug3": {
+      "type": "string"
     }
   }
 }
