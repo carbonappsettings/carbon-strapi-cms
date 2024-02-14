@@ -704,7 +704,8 @@ export interface ApiArticleArticle extends Schema.CollectionType {
         'Product & Engineering Leadership',
         'Management & Distributed Teams',
         'HR & Compliance',
-        'Anti-Outsourcing'
+        'Anti-Outsourcing',
+        'Interviews'
       ]
     > &
       Attribute.Required;
